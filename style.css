@@ -1,0 +1,37 @@
+* {
+	background: hsl(217, 28%, 15%);
+	color: hsl(0, 0%, 100%);
+	font-size: 14px;
+}
+
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	line-height: 3.5rem;
+}
+
+#a {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.btn-primary {
+	background: hsl(176, 68%, 64%);
+	font-size: 12px;
+	padding: 15px 70px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	border-radius: 100px;
+	justify-content: center;
+	transition: all 0.5s ease;
+}
+
+.btn-primary:hover {
+	background: hsl(198, 60%, 50%);
+}
